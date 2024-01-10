@@ -1,0 +1,34 @@
+.App {
+  text-align: left;
+}
+
+.picture-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picture {
+  height: 45vh;
+  width: auto;
+}
+
+.picture-caption {
+  margin-top: 10px; /* Adjust the margin as needed */
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.App-header {
+  background-color: #fff7fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #32032f;
+}
+
+.hobbyList {
+  padding-left: 5vw;
+}
